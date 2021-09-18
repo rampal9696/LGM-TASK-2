@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+section#home .container .navbar h1 {
+  color: #000;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  margin-right: 50px;
+}
+.navbar ul li a {
+  color: #fff;
+}
+.navbar ul li a:hover {
+  color: coral;
+}
+
+section#home {
+  background-image: url(https://images.designtrends.com/wp-content/uploads/2015/12/11055236/Elegant-Beach-Background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20px;
+}
